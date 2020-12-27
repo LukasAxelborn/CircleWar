@@ -10,7 +10,7 @@ public class Main{
 	
 	
 	public Main() {
-		JFrame frame = new JFrame("Maze algoritm");
+		JFrame frame = new JFrame("Circle War");
 		GamePlay game = new GamePlay();
 		frame.setSize(width+16,height+38);
 	

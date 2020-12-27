@@ -6,10 +6,12 @@ public class GamePlay extends JPanel{
 	
 	static final int FPS = 60;
 	
+	Player p;
 		
 	public GamePlay() {
 		
-				
+		p = new Player();
+
 	}
 
 	
@@ -17,8 +19,8 @@ public class GamePlay extends JPanel{
 	// game loop
 	public void paint(Graphics2D g) {
 		
-		
-		
+		p.draw(g);
+		System.out.println("hej GamePlay");
 		
 		//dont tutch its for the update
 		g.dispose();	
