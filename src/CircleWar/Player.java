@@ -1,16 +1,22 @@
 package CircleWar;
 
 import java.awt.Color;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
+
 
 public class Player {
+	
+	int x = 100;
+	int y = 100;
+	
+	
+	
 	public Player() {
 		
 	}
 	
-	public void draw(Graphics2D g) {
-		g.setColor(Color.BLACK);
-		g.fillRect(100, 100, 10, 10);
-		System.out.println("hej player");
+	public void draw(Graphics g) {
+		g.setColor(Color.RED);
+		g.fillOval(100, 100, 100, 100);
 	}
 }

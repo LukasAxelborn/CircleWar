@@ -1,5 +1,5 @@
 package CircleWar;
-import java.awt.Graphics2D;
+import java.awt.Graphics;
 import javax.swing.JPanel;
 
 public class GamePlay extends JPanel{
@@ -17,10 +17,9 @@ public class GamePlay extends JPanel{
 	
 	
 	// game loop
-	public void paint(Graphics2D g) {
+	public void paint(Graphics g) {
 		
 		p.draw(g);
-		System.out.println("hej GamePlay");
 		
 		//dont tutch its for the update
 		g.dispose();	
